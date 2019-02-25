@@ -1,0 +1,15 @@
+{
+    "name": "node-pkg-improved",
+    "version": "1.0.0",
+    "description": "An improved node-pkg dockerfile",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "build": "pkg -t alpine-x64 -o binary ."
+    },
+    "devDependencies": {
+        "pkg": "latest"
+    },
+    "keywords": [],
+    "author": ""
+}
